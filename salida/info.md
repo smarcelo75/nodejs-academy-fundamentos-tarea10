@@ -1,0 +1,1 @@
+## Carpeta de salida de archivos de textos
