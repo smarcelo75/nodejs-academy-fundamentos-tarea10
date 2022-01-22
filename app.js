@@ -7,7 +7,7 @@ crearArchivo(argv.base)
         console.clear;
         console.log(`Se creo el archivo ${resultado.nombreArchivo}!!!`.green);
         if (argv.listar) {
-            aplicarTema(argv.base, resultado.datos, argv.tema);
+            aplicarTema(argv.base, argv.tema);
         }
     })
     .catch(err => console.log(`Ocurrio el siguiente error al generar el archivo: \n ${err}`.red))
